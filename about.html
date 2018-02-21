@@ -13,7 +13,7 @@
 
     <link href="style.css" rel="stylesheet">
 
-    <title>Home - m24murray</title>
+    <title>About - m24murray</title>
   </head>
   <body>
      <header>
@@ -25,10 +25,10 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item dropdown">
@@ -50,9 +50,10 @@
 
     <!-- Begin page content -->
     <main role="main" class="container">
-        <h1 class="mt-5 hidden" id="intro">Hi, I'm Matthew</h1>
-        <p class="lead hidden" id="inProgressMsg">This website is still in progress, so please check back later!</p>
-
+        <h1 class="mt-5 hidden" id="aboutTitle">About</h1>
+        <p class="lead hidden" id="aboutContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3 class="mt-5 hidden" id="musicTitle">My Music</h3>
+        <iframe class ="spotify hidden" id="spotifyPlayer" src="https://open.spotify.com/embed/user/tehellet/playlist/1K7QtqHd2nqiaU4Ow9NtUo" width="300" height="405" marginwidth="50" frameborder="0" allowtransparency="true"></iframe>
     </main>
 
     <footer class="footer">
@@ -75,8 +76,10 @@
 
     <script>
       $(document).ready(function () {
-        $('#intro').fadeIn(1000).removeClass('hidden');
-        $('#inProgressMsg').fadeIn(2000).removeClass('hidden');
+        $('#aboutTitle').fadeIn(1000).removeClass('hidden');
+        $('#aboutContent').fadeIn(1500).removeClass('hidden');
+        $('#musicTitle').fadeIn(1000).removeClass('hidden');
+        $('#spotifyPlayer').fadeIn(1500).removeClass('hidden');
       });
     </script>
   </body>
