@@ -7,7 +7,7 @@ html {
 body {
   /* Margin bottom by footer height */
   padding-bottom: 100px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .footer {
   position: absolute;
@@ -21,14 +21,11 @@ body {
 .nav-item{
   padding-right: 20px;
 }
-div.hidden
-{
-    display: none
+.fade {
+  display:none;
 }
 .spotify{
-
   padding-top: 10px;
-
 }
 .fa {
   transform: translateY(+15%);

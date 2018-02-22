@@ -46,37 +46,43 @@
         </ul>
       </div>
     </nav>
+
     </header>
 
     <!-- Begin page content -->
-    <main role="main" class="container">
+    <main role="main" class="container ">
         <h1 class="mt-5 hidden" id="intro">Hi, I'm Matthew</h1>
         <p class="lead hidden" id="inProgressMsg">This website is still in progress, so please check back later!</p>
+        <p class="lead hidden" id="followMsg">You can follow me on <a href="https://github.com/m24murray">GitHub</a> and on <a href="https://twitter.com/m24murray">Twitter</a>
+        </p>
 
+        <i class="fa fa-code hidden" id="codeIcon"></i>
+        <i class="fa fa-code-fork hidden" id="codeForkIcon"></i>
+        <i class="fa fa-rocket hidden" id="rocketIcon"></i>
     </main>
 
     <footer class="footer">
       <div class="container">
-        <!-- <span class="text-muted">Place sticky footer content here.</span> -->
         <a href="https://github.com/m24murray" class="fa fa-github"></a>
         <a href="https://twitter.com/m24murray" class="fa fa-twitter"></a>
         <a href="https://www.linkedin.com/in/m24murray/" class="fa fa-linkedin"></a>
       </div>
     </footer>
-    <!-- Optional JavaScript -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
-    <script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
       $(document).ready(function () {
-        $('#intro').fadeIn(1000).removeClass('hidden');
-        $('#inProgressMsg').fadeIn(2000).removeClass('hidden');
+        $('#intro').fadeIn(1000);
+        $('#inProgressMsg').fadeIn(1250);
+        $('#followMsg').fadeIn(1250);
+        $('#codeIcon').fadeIn(1250);
+        $('#codeForkIcon').fadeIn(1250);
+        $('#rocketIcon').fadeIn(1250);
       });
     </script>
   </body>
