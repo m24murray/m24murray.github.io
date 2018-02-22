@@ -35,19 +35,17 @@ body {
     display: table-footer-group;
   }
   .main-image{
-    /*display: table-footer-group;
-    position: relative;
-    max-width: 80%;
-    margin-left: 70px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /*width: 40%;*/
     float: none;
   }
   .child3{
     display: table-header-group;
   }
+}
+.w3-animate-bottom{
+  position:relative;animation:animatebottom 0.7s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
 }
 .nav-item{
   padding-right: 20px;
