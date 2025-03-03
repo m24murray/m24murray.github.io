@@ -9,4 +9,6 @@ Matthew Murray, Lead Software Engineer at [Kainos](https://www.kainos.com/).
 
 Posts relating to tech, AI.
 
+Served using GitHub pages - https://github.com/m24murray/m24murray.github.io
+
 🚀
