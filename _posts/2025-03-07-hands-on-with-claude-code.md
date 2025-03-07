@@ -170,7 +170,7 @@ So far, I've used $0.58, which isn't too bad, but I also haven't done a lot yet.
 
 I might want to think of how to use this in a more cost-effective manner.
 
-![Running costs after iteration 1](/assets/images/hands-on-with-claude-3.png)
+![Running costs after iteration 1](/assets/images/hands-on-with-claude-6.png)
 
 ## Considerations
 
