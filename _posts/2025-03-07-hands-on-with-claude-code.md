@@ -82,7 +82,8 @@ The clarifying questions include things like:
 * Testing frameworks
 * Deployment configuration
 
-After about 15 questions, the results are output into a spec file, which can be seen [here]().
+After about 15 questions, the results are output into a spec file, which can be
+seen here - [spec.md](https://github.com/m24murray/hands-on-with-claude-spring-mongo/blob/main/spec.md).
 
 It includes sections on tech stack, data model, api endpoints and testing.
 
@@ -107,7 +108,8 @@ with a set of detailed prompts of what you are about to implement.
 This is useful for me to have a history of the changes.
 ```
 
-Claude has picked up the file, and has established a test of implementation instructions.
+Claude has picked up the file, and has established a test of implementation instructions, which can be seen
+here - [implementation-instructions.md](https://github.com/m24murray/hands-on-with-claude-spring-mongo/blob/main/implementation-instructions.md).
 
 ![Implementation instructions](/assets/images/hands-on-with-claude-2.png)
 
