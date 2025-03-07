@@ -162,6 +162,16 @@ The app compiled and ran as normal. I even hit the health check endpoint and con
 Next I ran the tests for the User model. One of the tests for the name/email validation had failed, but I was able
 quickly fix myself.
 
+### Running costs
+
+Claude Code will give you an idea of your usage at any time.
+
+So far, I've used $0.58, which isn't too bad, but I also haven't done a lot yet.
+
+I might want to think of how to use this in a more cost-effective manner.
+
+![Running costs after iteration 1](/assets/images/hands-on-with-claude-3.png)
+
 ## Considerations
 
 * The ability to review proposed file changes only really work if you're dealing with < 100 lines of code.
