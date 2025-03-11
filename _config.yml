@@ -21,6 +21,7 @@
 title: Maitiú Ó Muirí
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
+permalink: /:title
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "maitiuomuiri.com" # the base hostname & protocol for your site, e.g. http://example.com
