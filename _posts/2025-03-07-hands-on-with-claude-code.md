@@ -1,5 +1,6 @@
 ---
 title: "Hands-on with Claude Code"
+canonical_url: "https://www.maitiuomuiri.com/hands-on-with-claude-code"
 date: 2025-03-07 10:23:18 +0000
 categories: [ ai, claude ]
 tags: [ ai, claude ]
@@ -24,6 +25,8 @@ In this post, I'm going to walkthrough the build of a new Java REST API from scr
     could perform basic CRUD operations on a MongoDB collection.
 > * I was able to give it detailed spec of the things that I wanted, and it was able to quickly implement without many
     issues.
+> * Project uploaded to GitHub
+    here - [github.com/m24murray/hands-on-with-claude-spring-mongo](https://github.com/m24murray/hands-on-with-claude-spring-mongo)
 >
 > **Concerns:**
 >
@@ -315,7 +318,8 @@ What went well:
 
 * I successfully created a Spring REST API from scratch using Claude Code. The whole process took a couple of hours,
   scattered over a few days. It was definitely quicker than doing it manually, however this is probably only applicable
-  for low-risk projects.
+  for low-risk projects. Project
+  source - [github.com/m24murray/hands-on-with-claude-spring-mongo](https://github.com/m24murray/hands-on-with-claude-spring-mongo)
 * I appreciate this is still in preview, so keen to see what is next for Claude Code (maybe IDE integration like
   Copilot).
 * Having the spec and implementation changes defined as files that are updated by Claude Code make it really easy to
