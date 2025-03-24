@@ -3,6 +3,8 @@ title: "Development Workflow for Agentic GenAI Tools"
 date: 2025-03-21 09:40:00 +0000
 categories: []
 tags: []
+og_image: "/assets/images/development-workflow-2.png"
+
 ---
 
 Over the past few weeks, I've been experimenting with some of the agentic features of coding assistants. This includes GitHub Copilot's new [Agent Mode](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode) and Claude Code, which I featured in my last post: [Hands-on with Claude Code](2025-03-07-hands-on-with-claude-code.md).
