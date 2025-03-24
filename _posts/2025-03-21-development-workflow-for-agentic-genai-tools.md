@@ -57,11 +57,11 @@ Using our GenAI tool of choice, reference the spec file and ask it to output an 
 
 It's worth using a reasoning model such as Claude 3.7 Sonnet in the next two steps, which is reported as ["best-in-class for real-world coding tasks"](https://www.anthropic.com/news/claude-3-7-sonnet).
 
-{% include lightbox-image.html src="/assets/images/development-workflow-3.png" alt="Establishing an implemetation plan" %}
+{% include lightbox-image.html src="/assets/images/development-workflow-3.png" alt="Establishing an implementation plan" %}
 
 ### Step 3: Iterate and implement
 
-This final step is iterative and uses the details from implementation plan generated in the above step to progress through the development. Each iteration should be discrete, and provide an opurtunity to review, manually test and commit code. Once all iterations are completed, the application should be fully functional.
+This final step is iterative and uses the details from implementation plan generated in the above step to progress through the development. Each iteration should be discrete, and provide an opportunity to review, manually test and commit code. Once all iterations are completed, the application should be fully functional.
 
 Most of the design and instructions should be established at this point, all that should be required is a simple prompt like, _"Start iteration 1"_.
 
