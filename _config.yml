@@ -27,15 +27,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "maitiuomuiri.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.26.1"
 minimal_mistakes_skin: default # Other options: dark, solarized, etc.
 paginate: 5
 paginate_path: "/page:num/"
 timezone: Europe/Dublin
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
   - jekyll-include-cache
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -70,3 +67,12 @@ defaults:
       share: false
       related: false
       show_date: true
+      image:
+        lightbox: true
+  
+  - scope:
+      path: ""
+    values:
+      image:
+        lightbox: true
+    
