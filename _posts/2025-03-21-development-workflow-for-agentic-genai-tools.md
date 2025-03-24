@@ -29,7 +29,7 @@ To address the challenges introduced by agentic GenAI tools, here are some chang
 - **Reduce reliance on chat-based interactions**: Capturing all necessary information in a single prompt can be challenging, especially with limited input space. Additionally, losing context when a chat session ends can be frustrating. Transitioning to more structured input methods could mitigate these issues.
 - **Leverage technical documentation**: Instead of crafting detailed prompts for every task, we can direct GenAI tools to existing design documentation stored within the project. This approach ensures consistency and reduces the need for repetitive explanations.
 - **Improve progress visibility**: The conversational nature of these tools often obscures progress tracking. Establishing mechanisms to clearly indicate how far a task is from completion would provide better oversight and planning.
-- **Standardize processes for common tasks**: Many development tasks, such as creating a Java API, follow predictable patterns. By defining standard workflows or templates for these tasks, we can minimise repetitive prompting and streamline the development process.
+- **Standardise processes for common tasks**: Many development tasks, such as creating a Java API, follow predictable patterns. By defining standard workflows or templates for these tasks, we can minimise repetitive prompting and streamline the development process.
 
 ## A development workflow for Agentic AI
 
@@ -75,7 +75,7 @@ This workflow provides several key benefits:
 
 - **Increased direction and control**: The spec file and implementation instructions help keep agentic processes aligned with project goals.
 - **Transparent decision-making**: All decisions and progress are clearly documented in version control.
-- **Cost efficiency**: Breaking the spec into iterative processes helps minimize scope and reduce inefficiencies.
+- **Cost efficiency**: Breaking the spec into iterative processes helps minimise scope and reduce inefficiencies.
 - **Consistency**: The structured approach reduces the non-deterministic nature of agentic tools.
 - **Progress tracking**: The implementation plan and `changelog.md` file provide clear visibility into development progress.
 
