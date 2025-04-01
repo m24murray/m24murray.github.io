@@ -2,12 +2,13 @@
 title: "Agentic AI: A developer's guide to the latest coding assistants and models"
 date: 2025-04-01 15:40:57 +0100
 categories:
+classes: wide
 tags:
 header:
   image: 
 ---
 
-In the first few months of 2025, coding assistants such as GitHub Copilot have seen major improvements which is set to significantly change the way developers interact with them. These new agentic features offer greater integration with an application codebase but also have the ability to make decisions and execute certain commands.
+In the first few months of 2025, coding assistants such as GitHub Copilot have seen major improvements which are set to significantly change the way developers interact with them. These new agentic features offer greater integration with an application codebase but also have the ability to make decisions and execute certain commands.
 
 ## Table of Contents
 
@@ -74,8 +75,7 @@ As of March 2025, there are 3 popular coding assistants:
 
 1. Cursor Agent Mode - [https://docs.cursor.com/chat/agent](https://docs.cursor.com/chat/agent)
 2. GitHub Copilot Agent
-   Mode - [https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode) (
-   Available in preview, requires VS Code Insiders)
+   Mode - [https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode). _Available in preview, requires VS Code Insiders_
 3. Continue - [https://www.continue.dev/](https://www.continue.dev/)
 
 *There are also offerings such as Windsurf, Cline, Aider, Claude Code, which haven't been included for the purposes of
@@ -85,8 +85,6 @@ brevity.*
 
 Different coding assistants have different core functionality, data privacy and pricing. The following table outlines
 some of the key differences.
-
-# Comparison of Agentic AI Coding Assistants
 
 | Feature                                 | GitHub Copilot Agent Mode                                                                                                                                                                                                                                                      | Cursor                                                                                                                                                                                                                                                        | Continue                                                                                                                                                                                                                   |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -137,8 +135,6 @@ There are also other models such as DeepSeek's R1 and Alibaba's Qwen 2.5 which h
 detail.
 
 ### What are the key differences between models?
-
-# Comparison of Leading AI Models
 
 | Feature                             | Claude 3.7 Sonnet                                                                                                                                                                                           | GPT-4o                                                                                                                                              | Gemini 2.5                                                               |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
